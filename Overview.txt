@@ -1,0 +1,51 @@
+Project Overview
+
+This project analyzes coffee sales performance using Microsoft Excel.
+The goal was to build an interactive dashboard to monitor revenue trends, loyalty program performance, and product performance across multiple years.
+
+The dashboard combines data from multiple sheets and transforms it into meaningful business insights using PivotTables, calculated fields, and interactive slicers.
+
+Objectives
+
+Analyze total revenue and order volume
+Measure loyalty program contribution to revenue
+Compare performance by coffee type
+Track monthly and yearly revenue trends
+Build an interactive executive-style dashboard
+
+Dataset Structure
+
+The dataset consists of three relational sheets:
+Orders – Order details, quantity, product ID, customer ID, order date
+Customers – Customer demographics and loyalty status
+Products – Coffee type, roast type, size, unit price, profit
+Data from these sheets were combined using lookup functions to create a complete sales dataset.
+
+Tools & Techniques Used
+
+Microsoft Excel
+Pivot Tables
+Pivot Charts
+XLOOKUP
+Calculated Columns (Sales = Quantity × Unit Price)
+KPI Card Design
+Slicers (Coffee Type, Roast Type, Year)
+Dashboard Layout & Formatting
+Percentage of Grand Total analysis
+
+Key KPIs
+
+The dashboard includes:
+
+Total Revenue
+Total Orders
+Average Order Value
+Loyalty Revenue
+% Revenue from Loyalty Members
+
+Key Insights
+
+Loyalty members contribute nearly half of total revenue.
+Revenue trends show seasonal fluctuations throughout the year.
+Certain coffee types consistently generate higher revenue.
+Average order value remains stable across loyalty segments.
